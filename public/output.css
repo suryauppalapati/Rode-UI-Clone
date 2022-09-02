@@ -559,10 +559,6 @@ video {
   float: right;
 }
 
-.float-left {
-  float: left;
-}
-
 .my-12 {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -573,55 +569,22 @@ video {
   margin-right: 48%;
 }
 
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 .my-1 {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
 }
 
-.mx-1 {
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .mt-8 {
   margin-top: 2rem;
 }
 
-.ml-12 {
-  margin-left: 3rem;
-}
-
-.ml-32 {
-  margin-left: 8rem;
-}
-
-.ml-36 {
-  margin-left: 9rem;
-}
-
-.ml-40 {
-  margin-left: 10rem;
-}
-
-.ml-44 {
-  margin-left: 11rem;
-}
-
-.ml-20 {
-  margin-left: 5rem;
-}
-
 .ml-10 {
   margin-left: 2.5rem;
-}
-
-.mr-2 {
-  margin-right: 0.5rem;
 }
 
 .mr-4 {
@@ -644,12 +607,8 @@ video {
   margin-bottom: 1rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
+.ml-12 {
+  margin-left: 3rem;
 }
 
 .inline-block {
@@ -676,16 +635,8 @@ video {
   width: 6rem;
 }
 
-.w-\[60\%\] {
-  width: 60%;
-}
-
 .w-\[80\%\] {
   width: 80%;
-}
-
-.basis-\[40\%\] {
-  flex-basis: 40%;
 }
 
 .basis-\[30\%\] {
@@ -735,9 +686,20 @@ video {
   background-color: rgb(173 153 112 / var(--tw-bg-opacity));
 }
 
-.bg-grey {
-  --tw-bg-opacity: 1;
-  background-color: rgb(109 109 109 / var(--tw-bg-opacity));
+.bg-\[url\(\'\.\/assets\/rode8\.png\'\)\] {
+  background-image: url('./assets/rode8.png');
+}
+
+.bg-\[url\(\'\.\/assets\/rode9\.jpg\'\)\] {
+  background-image: url('./assets/rode9.jpg');
+}
+
+.bg-\[url\(\'\.\/assets\/rode10\.png\'\)\] {
+  background-image: url('./assets/rode10.png');
+}
+
+.bg-\[url\(\'\.\/assets\/rode11\.png\'\)\] {
+  background-image: url('./assets/rode11.png');
 }
 
 .bg-\[url\(\'\.\.\/assets\/rode8\.png\'\)\] {
@@ -820,60 +782,12 @@ video {
   padding-bottom: 0.25rem;
 }
 
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
 .pr-4 {
   padding-right: 1rem;
 }
 
 .pb-2 {
   padding-bottom: 0.5rem;
-}
-
-.pr-\[60\%\] {
-  padding-right: 60%;
-}
-
-.pr-\[40\%\] {
-  padding-right: 40%;
-}
-
-.pl-\[40\%\] {
-  padding-left: 40%;
-}
-
-.pr-2 {
-  padding-right: 0.5rem;
-}
-
-.pl-12 {
-  padding-left: 3rem;
-}
-
-.pl-24 {
-  padding-left: 6rem;
-}
-
-.text-left {
-  text-align: left;
 }
 
 .text-center {
@@ -901,11 +815,6 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -1089,12 +998,20 @@ video {
     justify-content: space-between;
   }
 
-  .lg\:bg-\[url\(\'\.\.\/assets\/heroimage\.png\'\)\] {
-    background-image: url('../assets/heroimage.png');
+  .lg\:bg-\[url\(\'\.\/assets\/heroimage\.png\'\)\] {
+    background-image: url('./assets/heroimage.png');
   }
 
   .lg\:bg-\[url\(\'\/assets\/rode3\.jpg\'\)\] {
     background-image: url('/assets/rode3.jpg');
+  }
+
+  .lg\:bg-\[url\(\'\.\/assets\/rode4\.jpg\'\)\] {
+    background-image: url('./assets/rode4.jpg');
+  }
+
+  .lg\:bg-\[url\(\'\.\.\/assets\/heroimage\.png\'\)\] {
+    background-image: url('../assets/heroimage.png');
   }
 
   .lg\:bg-\[url\(\'\.\.\/assets\/rode4\.jpg\'\)\] {
